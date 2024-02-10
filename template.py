@@ -16,6 +16,7 @@ list_of_files = [
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/_init_.py",
     f"src/{project_name}/entity/_init_.py",
+    f"src/{project_name}/logging/_init_.py",
     f"src/{project_name}/constants/_init_.py",
     "config/config.yaml",
     "params.yaml",
