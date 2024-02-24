@@ -500,3 +500,61 @@ ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: P
 [2024-02-24 17:05:45,712: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-02-24 17:05:45,713: INFO: common: created directory at: artifacts]
 [2024-02-24 17:05:45,713: INFO: common: created directory at: artifacts/model_trainer]
+[2024-02-24 17:14:38,738: INFO: config: PyTorch version 2.2.0 available.]
+[2024-02-24 17:14:41,139: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-02-24 17:14:41,142: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-24 17:14:41,148: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 17:14:41,151: INFO: common: created directory at: artifacts]
+[2024-02-24 17:14:41,151: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-02-24 17:14:43,429: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8274362
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "6067cb05b4d8701b71f8c029f97cd00c5bc1144cb94632e0db74389cc0c2ab84"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DDAE:4C63:740FA8:8B3089:65DA54F4
+Accept-Ranges: bytes
+Date: Sat, 24 Feb 2024 22:14:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bos4692-BOS
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1708812882.402586,VS0,VE62
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 67975e3ec067a3ea278b64a00637d4271322768f
+Expires: Sat, 24 Feb 2024 22:19:42 GMT
+Source-Age: 0
+
+]
+[2024-02-24 17:14:43,678: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-02-24 17:14:43,678: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-02-24 17:14:43,684: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-24 17:14:43,686: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 17:14:43,688: INFO: common: created directory at: artifacts]
+[2024-02-24 17:14:43,688: INFO: common: created directory at: artifacts/data_validation]
+[2024-02-24 17:14:43,690: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 17:14:43,692: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-02-24 17:14:43,699: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-24 17:14:43,702: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 17:14:43,703: INFO: common: created directory at: artifacts]
+[2024-02-24 17:14:43,703: INFO: common: created directory at: artifacts/data_transformation]
+[2024-02-24 17:14:49,294: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-02-24 17:14:49,295: INFO: main: *******************]
+[2024-02-24 17:14:49,295: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-02-24 17:14:49,299: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-02-24 17:14:49,300: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-02-24 17:14:49,300: INFO: common: created directory at: artifacts]
+[2024-02-24 17:14:49,301: INFO: common: created directory at: artifacts/model_trainer]
